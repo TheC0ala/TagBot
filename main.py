@@ -14,7 +14,7 @@ db = BotDatabase('database.db')
 
 
 def start_command(update, context):
-    message = 'Hey! I can help notify everyone in the group when someone needs them. \
+    message = 'salam bratva notify everyone in the group when someone needs them. \
 Everyone who wishes to receive mentions needs to /in to opt-in. All opted-in users can then be mentioned using /all'
     context.bot.send_message(chat_id=update.effective_chat.id, text=message)
 
